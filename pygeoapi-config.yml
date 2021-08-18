@@ -129,12 +129,12 @@ resources:
             intralink: true
     Datastreams:
         type: collection
-        title: BRGM Datastreams
-        description: BRGM SensorThings API Datastreams
+        title: USGS Datastreams
+        description: USGS SensorThings API Datastreams
         keywords:
             - Datastreams
             - SensorThings
-            - BRGM
+            - USGS
         context:
             - sosa: http://www.w3.org/ns/sosa/
               ssn: http://www.w3.org/ns/ssn/
@@ -145,7 +145,7 @@ resources:
             - type: application/html
               rel: canonical
               title: data source
-              href: https://www.brgm.fr/en
+              href: https://usgs.gov
               hreflang: en-US
         extents:
             spatial:
@@ -178,7 +178,7 @@ resources:
             - type: application/html
               rel: canonical
               title: data source
-              href: https://www.brgm.fr/en
+              href: https://usgs.govn
               hreflang: en-US
         extents:
             spatial:
